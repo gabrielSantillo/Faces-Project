@@ -908,4 +908,110 @@ $gray: #d4cbc8;
             }
         }
     }
+
+    #page-main-desktop-fifth-section {
+        display: grid;
+        width: 100%;
+        height: 100%;
+
+        >#page-main-desktop-fifth-section-title {
+            display: grid;
+            margin: 0 7%;
+            row-gap: 80%;
+
+            >h1 {
+                font-size: 3.5rem;
+            }
+
+            >p {
+                margin: 0 25%;
+                font-size: 1.4rem;
+                font-weight: bold;
+                line-height: 25px;
+                transform: translateX(40%);
+            }
+        }
+
+        >#page-main-desktop-fifth-section-picture {
+            display: grid;
+
+            >#page-main-desktop-fifth-section-picture-one {
+                width: 50%;
+                height: 70vh;
+                z-index: 2;
+                position: relative;
+
+                >#page-main-desktop-fifth-section-picture-one-div-one {
+                    width: 50%;
+                    height: 120%;
+                    background-image: url(/img/picture-sixth-section.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    transform: translateX(40%);
+                    z-index: 2;
+                    position: relative;
+                }
+
+                >#page-main-desktop-fifth-section-picture-div-orange-to-blue {
+                    width: 60%;
+                    height: 70%;
+                    background-image: linear-gradient(to bottom, $light_brown, $blue);
+                    transform: translateX(25%) translateY(-120%);
+                }
+            }
+
+            >#page-main-desktop-fifth-section-picture-two {
+                width: 50%;
+                height: 40vh;
+                z-index: 2;
+                position: relative;
+
+                >#page-main-desktop-fifth-section-picture-two-div-picture {
+                    background-image: url(/img/picture-sixth-secion-2.jpg);
+                    width: 40%;
+                    height: 120%;
+                    background-size: cover;
+                    background-position: center;
+                    transform: translateX(350%) translateY(-80%);
+                    z-index: 2;
+                    position: relative;
+                }
+
+                >#page-main-desktop-fifth-section-picture-two-div-stripped {
+                    background: repeating-linear-gradient(315deg, transparent,transparent 10px,$light_brown 8px,$light_brown 16px);
+                    width: 30%;
+                    height: 60%;
+                    transform: translateX(440%) translateY(-330%);
+                }
+            }
+
+            >#page-main-desktop-fifth-section-picture-three {
+                width: 600px;
+                height: 600px;
+                background-color: $blue;
+                display: grid;
+                place-items: center;
+                text-align: start;
+                color: white;
+                transform: translateX(70%) translateY(-62%);
+
+                >#page-main-desktop-fifth-section-picture-three-stripped {
+                    background: repeating-linear-gradient(315deg, transparent,transparent 10px,$blue 8px,$blue 16px);
+                    width: 30%;
+                    height: 30%;
+                    transform: translateY(150%) translateX(-215%);
+                }
+
+                >p {
+                    margin: 0 20%;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    line-height: 40px;
+                    z-index: 2;
+                    position: relative;
+                    transform: translateY(-100%);
+                }
+            }
+        }
+    }
 }
