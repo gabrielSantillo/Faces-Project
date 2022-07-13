@@ -494,6 +494,11 @@ img, svg, iframe {
 }
 
 #page-footer {
+  display: grid;
+  width: 100%;
+}
+
+#page-footer-mobile {
   height: 400px;
   width: 100%;
   color: white;
@@ -502,7 +507,7 @@ img, svg, iframe {
   grid-template-rows: 6fr 1f;
   place-items: center;
 }
-#page-footer > #page-footer-first-section {
+#page-footer-mobile > #page-footer-first-section {
   background-color: #354c56;
   height: 100%;
   width: 100%;
@@ -510,17 +515,21 @@ img, svg, iframe {
   display: grid;
   place-items: center;
 }
-#page-footer > #page-footer-first-section > div {
+#page-footer-mobile > #page-footer-first-section > div {
   display: grid;
   row-gap: 10px;
 }
-#page-footer > #page-footer-second-section {
+#page-footer-mobile > #page-footer-second-section {
   width: 100%;
   height: 100%;
   background-color: #293135;
   color: white;
   display: grid;
   place-items: center;
+}
+
+#page-footer-desktop {
+  display: none;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -1011,5 +1020,63 @@ img, svg, iframe {
     background-color: transparent;
     border: 15px solid white;
     transform: translateY(-255%) translateX(30%);
+  }
+  #page-main-desktop-seventh-section {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to bottom, #354c56, #293135);
+    display: grid;
+    place-items: center;
+    transform: translateY(-330%);
+  }
+  #page-main-desktop-seventh-section > div {
+    background: repeating-linear-gradient(315deg, transparent, transparent 10px, #afafaf 8px, #afafaf 16px);
+    width: 80%;
+    height: 55%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  #page-main-desktop-seventh-section > div > div {
+    background-image: linear-gradient(to right, #354c56, #bd785c);
+    width: 90%;
+    height: 70%;
+    display: grid;
+    place-items: center;
+    color: white;
+  }
+  #page-main-desktop-seventh-section > div > div > h1 {
+    font-size: 3rem;
+  }
+  #page-main-desktop-seventh-section > div > div > button {
+    width: 20%;
+    height: 50%;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    transform: translateY(-30%);
+  }
+  #page-footer-mobile {
+    display: none;
+  }
+  #page-footer-desktop {
+    display: grid;
+    width: 100%;
+    height: 30vh;
+  }
+  #page-footer-desktop > #page-footer-desktop-div-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #354c56;
+    color: white;
+    place-items: center;
+  }
+  #page-footer-desktop > #page-footer-desktop-div-bottom {
+    display: grid;
+    text-align: center;
+    background-color: #293135;
+    color: white;
+    place-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
