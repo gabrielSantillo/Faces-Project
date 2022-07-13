@@ -914,6 +914,8 @@ $gray: #d4cbc8;
         width: 100%;
         height: 100%;
         transform: translateY(-6%);
+        position: relative;
+        z-index: 3;
 
         >#page-main-desktop-fifth-section-title {
             display: grid;
@@ -1087,12 +1089,73 @@ $gray: #d4cbc8;
         width: 100%;
         height: 100vh;
         display: grid;
+        transform: translateY(-340%);
+        position: relative;
+        z-index: 2;
 
         >#page-main-desktop-sixth-section-div-right {
             background-image: linear-gradient(to bottom, $blue, $dark_blue);
             width: 75%;
-            height: 100vh;
+            height: 150vh;
             justify-self: end;
+
+            >div {
+                display: grid;
+                text-align: start;
+                color: white;
+                margin: 0 33%;
+                row-gap: 15%;
+                transform: translateY(80%) translateX(40%);
+
+                >h1 {
+                    font-size: 2.7rem;
+                }
+
+                >p {
+                    line-height: 25px;
+                    font-size: 1.2rem;
+                }
+
+                >button {
+                    width: 50%;
+                    height: 220%;
+                    border: 2px solid white;
+                    background-color: transparent;
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        >#page-main-desktop-sixth-section-div-left {
+            width: 95%;
+            height: 100vh;
+            transform: translateY(-120%) translateX(5%);
+
+            >#page-main-desktop-sixth-section-div-left-orange-to-blue {
+                width: 35%;
+                height: 80%;
+                background-image: linear-gradient(to bottom, $light_brown, $blue);
+            }
+
+            >#page-main-desktop-sixth-section-div-left-picture {
+                width: 30%;
+                height: 60%;
+                background-image: url(/img/picture-tenth-section.jpg);
+                background-size: cover;
+                background-position: center;
+                transform: translateY(-120%) translateX(40%);
+                position: relative;
+                z-index: 2;
+            }
+
+            >#page-main-desktop-sixth-section-div-left-border {
+                width: 20%;
+                height: 45%;
+                background-color: transparent;
+                border: 15px solid white;
+                transform: translateY(-255%) translateX(30%);
+            }
         }
     }
 }
