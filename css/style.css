@@ -799,6 +799,7 @@ img, svg, iframe {
     display: grid;
     width: 100%;
     height: 100%;
+    transform: translateY(-6%);
   }
   #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-title {
     display: grid;
@@ -886,5 +887,74 @@ img, svg, iframe {
     z-index: 2;
     position: relative;
     transform: translateY(-100%);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-four {
+    width: 50%;
+    height: 100%;
+    transform: translateY(-40%) translateX(25%);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-four > #page-main-desktop-fifth-section-picture-four-blue-to-orange {
+    width: 50%;
+    height: 60vh;
+    background-image: linear-gradient(to bottom, #354c56, #bd785c);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-four > #page-main-desktop-fifth-section-picture-four-picture {
+    width: 50%;
+    height: 70vh;
+    background-image: url(/img/picture-seventh-section.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-120%) translateX(15%);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-four > #page-main-desktop-fifth-section-picture-four-stripped {
+    background: repeating-linear-gradient(315deg, transparent, transparent 10px, #354c56 8px, #354c56 16px);
+    width: 40%;
+    height: 30%;
+    transform: translateY(-180%) translateX(25%);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-five {
+    width: 30%;
+    height: 50%;
+    transform: translateY(-270%) translateX(190%);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-five > #page-main-desktop-fifth-section-picture-five-blue-to-orange {
+    width: 60%;
+    height: 45vh;
+    background-image: linear-gradient(to bottom, #354c56, #bd785c);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-five > #page-main-desktop-fifth-section-picture-five-picture {
+    width: 80%;
+    height: 60vh;
+    background-image: url(/img/picture-eith-section.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-85%) translateX(15%);
+    position: relative;
+    z-index: 2;
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-five > #page-main-desktop-fifth-section-picture-five-stripped {
+    background: repeating-linear-gradient(315deg, transparent, transparent 10px, #bd785c 8px, #bd785c 16px);
+    width: 80%;
+    height: 50vh;
+    transform: translateY(-110%) translateX(20%);
+  }
+  #page-main-desktop-fifth-section > #page-main-desktop-fifth-section-picture > #page-main-desktop-fifth-section-picture-six {
+    width: 50%;
+    height: 70vh;
+    background-image: url(/img/picture-ninth-section.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-425%) translateX(60%);
+  }
+  #page-main-desktop-sixth-section {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+  }
+  #page-main-desktop-sixth-section > #page-main-desktop-sixth-section-div-right {
+    background-image: linear-gradient(to bottom, #354c56, #293135);
+    width: 75%;
+    height: 100vh;
+    justify-self: end;
   }
 }/*# sourceMappingURL=style.css.map */

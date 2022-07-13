@@ -913,6 +913,7 @@ $gray: #d4cbc8;
         display: grid;
         width: 100%;
         height: 100%;
+        transform: translateY(-6%);
 
         >#page-main-desktop-fifth-section-title {
             display: grid;
@@ -1012,6 +1013,86 @@ $gray: #d4cbc8;
                     transform: translateY(-100%);
                 }
             }
+
+            >#page-main-desktop-fifth-section-picture-four {
+                width: 50%;
+                height: 100%;
+                transform: translateY(-40%) translateX(25%);
+
+                >#page-main-desktop-fifth-section-picture-four-blue-to-orange {
+                    width: 50%;
+                    height: 60vh;
+                    background-image: linear-gradient(to bottom, $blue, $light_brown);
+                }
+
+                >#page-main-desktop-fifth-section-picture-four-picture {
+                    width: 50%;
+                    height: 70vh;
+                    background-image: url(/img/picture-seventh-section.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    transform: translateY(-120%) translateX(15%);
+                }
+
+                >#page-main-desktop-fifth-section-picture-four-stripped {
+                    background: repeating-linear-gradient(315deg, transparent,transparent 10px,$blue 8px,$blue 16px);
+                    width: 40%;
+                    height: 30%;
+                    transform: translateY(-180%) translateX(25%);
+                }
+            } 
+
+            >#page-main-desktop-fifth-section-picture-five {
+                width: 30%;
+                height: 50%;
+                transform: translateY(-270%) translateX(190%);
+
+                >#page-main-desktop-fifth-section-picture-five-blue-to-orange {
+                    width: 60%;
+                    height: 45vh;
+                    background-image: linear-gradient(to bottom, $blue, $light_brown);
+                }
+
+                >#page-main-desktop-fifth-section-picture-five-picture {
+                    width: 80%;
+                    height: 60vh;
+                    background-image: url(/img/picture-eith-section.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    transform: translateY(-85%) translateX(15%);
+                    position: relative;
+                    z-index: 2;
+                }
+
+                >#page-main-desktop-fifth-section-picture-five-stripped {
+                    background: repeating-linear-gradient(315deg, transparent,transparent 10px,$light_brown 8px,$light_brown 16px);
+                    width: 80%;
+                    height: 50vh;
+                    transform: translateY(-110%) translateX(20%);
+                }
+            }
+
+            >#page-main-desktop-fifth-section-picture-six {
+                width: 50%;
+                height: 70vh;
+                background-image: url(/img/picture-ninth-section.jpg);
+                background-size: cover;
+                background-position: center;
+                transform: translateY(-425%) translateX(60%);
+            }
+        }
+    }
+
+    #page-main-desktop-sixth-section {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+
+        >#page-main-desktop-sixth-section-div-right {
+            background-image: linear-gradient(to bottom, $blue, $dark_blue);
+            width: 75%;
+            height: 100vh;
+            justify-self: end;
         }
     }
 }
